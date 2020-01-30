@@ -16,12 +16,8 @@ def find_the_cheese(item)
   cheese_types = ["cheddar", "gouda", "camembert"]
   item.find do |food_item|
     # cheese_types.include?(food_item)
-    cheese_types.each do |cheese|
-      if food_item == cheese
-        true 
-      else 
-        return false 
-      end 
+    if food_item == cheese_types[0] || food_item == cheese_types[1] || food_item == cheese_types[2]
+      true 
     end 
   end 
 end
