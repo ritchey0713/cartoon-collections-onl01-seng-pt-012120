@@ -19,3 +19,14 @@ def find_the_cheese(item)
     end 
   end 
 end
+
+
+
+
+def is_admin(user)
+  if user == "admin"
+    puts "HI"
+  else 
+    puts "go away"
+  end
+end 
