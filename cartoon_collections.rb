@@ -21,7 +21,7 @@ def find_the_cheese(item)
       if food_item == cheese
         true 
       else 
-        false 
+        return false 
       end 
     end 
   end 
