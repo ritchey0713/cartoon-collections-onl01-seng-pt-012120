@@ -14,19 +14,14 @@ end
 
 def find_the_cheese(item)
   cheese_types = ["cheddar", "gouda", "camembert", "cheesy_thing"]
-  item.find do |food_item|
-     cheese_types.include?(food_item)
-    end 
+  # item.find do |food_item|
+  #   cheese_types.include?(food_item)
+  #   end 
+  
+  # look through cheese 
+  # find the first match
+  # return string name of match 
+  
+  
   end 
 end
-
-
-
-
-def is_admin(user)
-  if user == "admin"
-    puts "HI"
-  else 
-    puts "go away"
-  end
-end 
